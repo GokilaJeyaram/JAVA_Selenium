@@ -13,7 +13,7 @@ public class LeaftapsLogin {
 		//getting Title
 		System.out.println(driver.getTitle());
 		//Maximize the browser
-		driver.manage().window();
+		driver.manage().window().maximize();
 		//2.login
 		//Entering the username
 		driver.findElementById("username").sendKeys("DemoSalesManager");
